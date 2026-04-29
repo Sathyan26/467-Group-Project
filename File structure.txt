@@ -1,0 +1,48 @@
+autoparts-online/
+│
+├── config/
+│   └── db_connect.php
+│
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   ├── functions.php
+│   ├── auth.php
+│   └── cart_functions.php
+│
+├── customer/
+│   ├── index.php
+│   ├── product_details.php
+│   ├── cart.php
+│   ├── checkout.php
+│   ├── payment.php
+│   ├── order_confirmation.php
+│   └── track_order.php
+│
+├── warehouse/
+│   ├── warehouse_packing.php
+│   ├── print_packing_list.php
+│   ├── print_invoice.php
+│   ├── print_shipping_label.php
+│   ├── mark_shipped.php
+│   ├── warehouse_receiving.php
+│   └── update_inventory.php
+│
+├── admin/
+│   ├── admin.php
+│   ├── shipping_rules.php
+│   ├── orders_search.php
+│   └── order_details.php
+│
+├── sql/
+│   ├── create_schema.sql
+│   ├── seed_shipping_rules.sql
+│   ├── seed_users.sql
+│   └── sample_inventory.sql
+│
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   └── images/
+│
+└── README.md
